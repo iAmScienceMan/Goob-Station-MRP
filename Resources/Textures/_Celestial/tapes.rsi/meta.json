@@ -1,0 +1,41 @@
+{
+    "version": 1,
+    "license": "CLA",
+    "copyright": "CELESTIAL SPACE",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "tape1"
+        },
+        {
+            "name": "tape2"
+        },
+        {
+            "name": "tape3"
+        },
+        {
+            "name": "tape4"
+        },
+        {
+            "name": "tape5"
+        },
+        {
+            "name": "tape6"
+        },
+        {
+            "name": "tape7"
+        },
+        {
+            "name": "tape8"
+        },
+        {
+            "name": "tape9"
+        },
+        {
+            "name": "tape10"
+        }
+    ]
+}
