@@ -421,8 +421,8 @@
 - type: entity
   parent: DecorFloorWorldBase
   id: DecorFloorPalletStack
-  name: pallet stack
-  description: a stack of wooden pallets
+  name: штабель поддонов
+  description: Штабель деревянных поддонов.
   suffix: "2 states"
   components:
   - type: Sprite

@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: BaseBigBox
-  name: cardboard box #it's still just a box
-  description: Huh? Just a box...
+  name: картонная коробка #it's still just a box
+  description: Хм? Это просто коробка...
   abstract: true
   components:
     - type: Transform
@@ -90,8 +90,8 @@
   id: GhostBox
   parent: StealthBox
   suffix: ""
-  name: ghost box
-  description: Beware!
+  name: призрачная коробка
+  description: Бойтесь!
   components:
     - type: Fixtures
       fixtures:

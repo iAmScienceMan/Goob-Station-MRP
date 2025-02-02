@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, ShowMedicalIcons]
   id: ClothingEyesGlassesMedSec
-  name: medsecglasses
-  description: Sunglasses with a medical and security hud
+  name: медохранные очки
+  description: Солнцезащитные очки с медицинской и защитной оболочкой.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Eyes/Glasses/medglasses.rsi

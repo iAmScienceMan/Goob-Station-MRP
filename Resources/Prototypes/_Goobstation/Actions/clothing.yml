@@ -1,7 +1,7 @@
 - type: entity
   id: ActionClothingSeal
-  name: Seal/Unseal Clothing
-  description: Seals or unseals your current clothing.
+  name: Запечатать/Распечатать одежду
+  description: Запечатывает или распечатывает вашу текущую одежду.
   categories: [ HideSpawnMenu ]
   components:
   - type: ConfirmableAction

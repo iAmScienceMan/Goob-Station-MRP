@@ -1,0 +1,5 @@
+loadout-name-LoadoutBackpack = серый рюкзак (можно изменить цвет)
+loadout-name-LoadoutBackpackDuffel = серый дорожный мешок (можно изменить цвет)
+loadout-name-LoadoutBackpackSatchel = серый рюкзак через плечо (можно изменить цвет)
+loadout-name-LoadoutBackpackSatchelPurse = сумочка (можно изменить цвет)
+loadout-name-LoadoutBackpackSatchelPurseFlipped = сумочка, перевернутая (можно изменить цвет)

@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingModsuitBootsStandard
-  name: standard modsuit boots
-  description: A special modular suit boots designed for compact folding inside modular suit control.
+  name: стандартные ботинки модкостюма
+  description: Специальные ботинки для модульного костюма, предназначенные для компактного складывания внутри модульного костюма управления.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance

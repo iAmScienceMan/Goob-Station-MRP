@@ -14,7 +14,7 @@
 - type: entity
   id: MagazineBoxMagnumEnsnaring
   parent: BaseMagazineBoxMagnumExtended
-  name: ammunition box (.45 magnum ensnaring)
+  name: коробка патроном (.45 магнум захватывающий)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumEnsnaring
@@ -46,7 +46,7 @@
 - type: entity
   id: MagazineBoxMagnumFlash
   parent: BaseMagazineBoxMagnumExtended
-  name: ammunition box (.45 magnum flash)
+  name: коробка патрон (.45 магнум вспышка)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumFlash

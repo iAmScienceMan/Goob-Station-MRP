@@ -2,8 +2,8 @@
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
   id: ClothingBlueshieldArmourVest
-  name: blueshield's security armour
-  description: An armoured vest with the badge of the blueshield
+  name: бронежилет офицера "синий щит"
+  description: Бронежилет со значком голубого щита.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Armor/bso_armour.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: ClothingBlueshieldArmourVest
   id: ClothingBlueshieldArmoredJacket
-  name: blueshield's armored jacket
-  description: A jacket with sewn-in reinforcement layers.
+  name: бронированная куртка офицера "синий щит"
+  description: Куртка с вшитыми усиливающими слоями.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Armor/blueshield_jacket.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingBlueshieldArmourVest
   id: ClothingBlueshieldArmoredCowboyJacket
-  name: blueshield's armored cowboy jacket
-  description: A jacket to protect important people in wild areas.
+  name: бронированная ковбойская куртка офицера "синий щит"
+  description: Куртка для защиты важных персон в диких местах.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Armor/blueshield_cowboy_jacket.rsi

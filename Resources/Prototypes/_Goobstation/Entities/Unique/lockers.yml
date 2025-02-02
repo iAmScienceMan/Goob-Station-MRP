@@ -1,6 +1,6 @@
 - type: entity
   id: UniqueLockerNanorepFilled
-  suffix: MAP THIS, Unique, Filled
+  suffix: МАПЬТЕ ЭТО, Случайный, Заполненный
   parent: LockerNanorepFilled
   components:
   - type: ConditionalSpawner
@@ -9,7 +9,7 @@
 
 - type: entity
   id: UniqueLockerBlueshieldOfficerFilled
-  suffix: MAP THIS, Unique, Filled
+  suffix: МАПЬТЕ ЭТО, Случайный, Заполненный
   parent: LockerBlueshieldOfficerFilled
   components:
   - type: ConditionalSpawner
@@ -18,7 +18,7 @@
 
 - type: entity
   id: UniqueLockerMagistrateFilled
-  suffix: MAP THIS, Unique, Filled
+  suffix: МАПЬТЕ ЭТО, Случайный, Заполненный
   parent: LockerMagistrateFilled
   components:
   - type: ConditionalSpawner

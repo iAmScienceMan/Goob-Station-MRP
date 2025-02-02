@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetMagistrate
-  name: magistrate's headset
-  description: The headset used by the magistrate.
+  name: гарнитура магистрата
+  description: Гарнитура, используемая магистратом.
   components:
   - type: ContainerFill
     containers:

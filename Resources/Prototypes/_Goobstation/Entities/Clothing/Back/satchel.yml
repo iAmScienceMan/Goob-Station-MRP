@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelNanorep
-  name: Nanotrasen Representative Satchel
-  description: An expensive dark green backpack. Smells like fax machines.
+  name: сумка представителя НаноТрейзен
+  description: Дорогой темно-зеленый рюкзак. Пахнет факсом.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Back/Satchels/nanorep.rsi
@@ -10,8 +10,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelBlueshield
-  name: blueshield satchel
-  description: A very protective satchel, smells like energy gun.
+  name: сумка офицера "синий щит"
+  description: Очень защищенная сумка, пахнет энергетическим пистолетом.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Back/Satchels/blueshield.rsi

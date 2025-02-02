@@ -1,5 +1,5 @@
 - type: entity
-  name: cane blade
+  name: лезвие трости
   suffix: Nanotrasen
   parent: BaseItem
   id: CaneBladeNanotrasen

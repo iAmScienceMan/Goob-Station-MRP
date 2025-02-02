@@ -1,8 +1,8 @@
 - type: entity
-  name: Chester
+  name: Честер
   parent: [ BaseWeaponRifle, BaseGunWieldable ]
   id: WeaponLeverChester
-  description: An improved lever-action rifle designed to fire specialized .45 caliber ammunition for rapid threat removal.
+  description: Усовершенствованная винтовка с рычажным механизмом, предназначенная для стрельбы специализированными патронами .45 калибра для быстрого устранения угроз.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Lever/chester.rsi
@@ -16,7 +16,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Магазин
         startingItem: MagazineMagnumLeverRifle
         insertSound: /Audio/Weapons/Guns/MagIn/rifle_load.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/sfrifle_magout.ogg
@@ -25,7 +25,7 @@
           tags:
           - MagazineMagnumLeverRifle
       gun_chamber:
-        name: Chamber
+        name: Камера
         priority: 1
         whitelist:
           tags:

@@ -1,0 +1,6 @@
+loadout-name-LoadoutBeltGeneric = пояс (можно изменить цвет)
+loadout-name-LoadoutBeltGenericThin = тонкий пояс (можно изменить цвет)
+loadout-name-LoadoutBeltGenericThick = толстый пояс (можно изменить цвет)
+loadout-name-LoadoutBeltWaist = пояс для талии (можно изменить цвет)
+loadout-name-LoadoutBeltWaistThin = тонкий пояс для талии (можно изменить цвет)
+loadout-name-LoadoutBeltWaistbagColor = поясная сумка (можно изменить цвет)
