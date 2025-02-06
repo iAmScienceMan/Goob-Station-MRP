@@ -1,7 +1,7 @@
-job-name-medical-borg = Медицинский Киборг
-job-name-chief-justice = Главный Судья
-job-name-clerk = Клерк
-job-name-prosecutor = Прокурор
+job-name-medical-borg = Медицинский киборг
+job-name-chief-justice = Верховный Судья
+job-name-clerk = Судья
+job-name-prosecutor = Инспектор
 job-name-lawyer = Адвокат
 job-name-courier = Курьер
-job-name-admin-assistant = Административный Ассистент
+job-name-admin-assistant = Адъютант

@@ -1,7 +1,7 @@
 - type: job
   id: BlueshieldOfficer
-  name: job-name-bso
-  description: job-description-bso
+  name: 'офицер "синий щит"'
+  description: "Выступайте в роли телохранителя и советника для командования и VIP-персон ЦентКома."
   playTimeTracker: JobBlueshieldOfficer
   requirements:
     - !type:CharacterDepartmentTimeRequirement

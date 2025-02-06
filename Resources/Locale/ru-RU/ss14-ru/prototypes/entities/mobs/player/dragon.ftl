@@ -1,9 +1,9 @@
-ent-BaseMobDragon = космический дракон
+ent-BaseMobDragon = Космический дракон
     .desc = Летающий левиафан, имеющий мало общего с космическими карпами.
 ent-MobDragon = { ent-BaseMobDragon }
     .desc = { ent-BaseMobDragon.desc }
-ent-DragonsBreathGun = драконье лёгкое
-    .desc = Для драконьего дыхания.
+ent-DragonsBreathGun = легкое дракона
+    .desc = Для огненного дыхания дракона
 ent-MobDragonDungeon = { ent-BaseMobDragon }
     .suffix = Подземелье
     .desc = { ent-BaseMobDragon.desc }
@@ -12,4 +12,4 @@ ent-ActionSpawnRift = Создать карповый разлом
 ent-ActionDevour = [color=red]Поглотить[/color]
     .desc = Попытаться разрушить конструкцию своими челюстями или проглотить существо.
 ent-ActionDragonsBreath = [color=orange]Дыхание дракона[/color]
-    .desc = Извергайте пламя на всех, кто поимеет глупость напасть на вас!
+    .desc = Изрыгай пламя на любого, кто достаточно глуп, чтобы напасть на тебя!

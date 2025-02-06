@@ -1,7 +1,7 @@
 - type: job
   id: Magistrate
-  name: job-name-magistrate
-  description: job-description-magistrate
+  name: Магистрат
+  description: "Обеспечение соблюдения космического закона, поддержание справедливости и законности, проведение слушаний и судебных разбирательств, соблюдение СРП, обеспечение соблюдения космического закона и СРП командованием."
   playTimeTracker: JobMagistrate
   requirements:
     - !type:CharacterDepartmentTimeRequirement

@@ -1,11 +1,7 @@
 thief-backpack-window-title = Ящик воровских инструментов
 thief-backpack-window-description =
     Внутри находятся ваши орудия труда, которые растворятся, когда вы будете готовы.
-    Выберите { $maxCount } { $maxCount ->
-        [1] набор
-        [few] разных набора
-       *[other] разных наборов
-    } из списка.
+    Выберите из списка.
 thief-backpack-window-selected = Выбрано наборов: ({ $selectedCount }/{ $maxCount })
 thief-backpack-window-approve-button = Принять
 thief-backpack-button-select = Выбрано [ ]
@@ -16,8 +12,7 @@ thief-backpack-button-deselect = Выбрано [X]
 thief-backpack-category-chameleon-name = Набор хамелеона
 thief-backpack-category-chameleon-description =
     Вы - никто и кто угодно, вы - мастер маскировки.
-    В комплект входят: комплект хамелеон-одежды,
-    маскировочный проектор и ID карта агента.
+    В комплект входят: комплект хамелеон-одежды и маскировочный проектор.
     Маскируйтесь под кого угодно и под что угодно.
 thief-backpack-category-tools-name = Набор вломщика
 thief-backpack-category-tools-description =
@@ -34,8 +29,7 @@ thief-backpack-category-syndie-name = Набор Синдиката
 thief-backpack-category-syndie-description =
     Побрякушки из забытого прошлого или украденные у нерадивого агента?
     Вы нашли кое-какую связь. Виски, эхо...
-    В комплект входят: Емаг, сигареты Interdyne,
-    кодовое слово Синдиката, зажигалка, глушитель связи,
+    В комплект входят: ID карта агента, емаг, пИИ Синдиката, сигареты Interdyne,
     и несколько странных красных кристаллов.
 thief-backpack-category-sleeper-name = Набор сони
 thief-backpack-category-sleeper-description =

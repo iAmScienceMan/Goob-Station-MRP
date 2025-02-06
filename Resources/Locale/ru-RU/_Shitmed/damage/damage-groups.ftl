@@ -1,1 +1,1 @@
-damage-group-organ-failure = Отказ Органа
+damage-group-organ-failure = Отторжение органов

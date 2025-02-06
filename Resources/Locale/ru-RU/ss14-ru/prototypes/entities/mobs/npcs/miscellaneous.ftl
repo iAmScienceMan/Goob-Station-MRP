@@ -1,4 +1,2 @@
-ent-MobLaserRaptor = лазерный раптор
+ent-MobLaserRaptor = Лазерный раптор
     .desc = Из эпохи викингов.
-ent-MobTomatoKiller = помидор-убийца
-    .desc = Похоже, сегодня не вы едите помидоры, а помидоры едят вас.

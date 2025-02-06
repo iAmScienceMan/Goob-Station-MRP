@@ -1,16 +1,12 @@
-shadowkin-power-examined-other = Кажется, что у {CAPITALIZE(SUBJECT($target))} есть {$powerType}.
-shadowkin-power-examined-self = У меня {$power}/{$powerMax} энергии, я {$powerType}.
-
-shadowkin-power-5 = энергичный
-shadowkin-power-4 = отличный
-shadowkin-power-3 = хороший
-shadowkin-power-2 = нормальный
-shadowkin-power-1 = измотанный
-shadowkin-power-0 = иссушенный
-
-examine-mindbroken-shadowkin-message = {CAPITALIZE($entity)} кажется черноглазым.
-
-identity-eye-shadowkin = {$color}-глаз
-
-shadowkin-blackeye = Я чувствую, как моя сила уходит...
-shadowkin-tired = У меня нет энергии для этого.
+shadowkin-power-examined-other = { CAPITALIZE(SUBJECT($target)) } кажется, это в { $powerType } состоянии.
+shadowkin-power-examined-self = У меня есть энергия { $power }/{ $powerMax }, я в { $powerType } состоянии.
+shadowkin-power-5 = энергичном
+shadowkin-power-4 = отличном
+shadowkin-power-3 = хорошем
+shadowkin-power-2 = нормальном
+shadowkin-power-1 = измученным
+shadowkin-power-0 = опустошённым
+examine-mindbroken-shadowkin-message = { CAPITALIZE($entity) } кажется с чёрными глазами.
+identity-eye-shadowkin = { $color }-глазый
+shadowkin-blackeye = Я чувствую, как иссякают мои силы...
+shadowkin-tired = У меня нет на это сил.

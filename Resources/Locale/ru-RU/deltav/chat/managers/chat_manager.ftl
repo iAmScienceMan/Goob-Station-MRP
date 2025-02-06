@@ -1,23 +1,15 @@
 chat-speech-verb-name-vulpkanin = Вульпканин
 chat-speech-verb-vulpkanin-1 = рычит
 chat-speech-verb-vulpkanin-2 = лает
-chat-speech-verb-vulpkanin-3 = урчит
-chat-speech-verb-vulpkanin-4 = тявкает
-
+chat-speech-verb-vulpkanin-3 = гавкает
+chat-speech-verb-vulpkanin-4 = тяфкает
 chat-speech-verb-name-felinid = Фелинид
-chat-speech-verb-felinid-1 = мяучит
-chat-speech-verb-felinid-2 = мурлычет
+chat-speech-verb-felinid-1 = шипит
+chat-speech-verb-felinid-2 = мурлыкает
 chat-speech-verb-felinid-3 = мяукает
-chat-speech-verb-felinid-4 = мурлычет
-
+chat-speech-verb-felinid-4 = мурчит
 chat-speech-verb-name-harpy = Гарпия
-chat-speech-verb-harpy-1 = чирикает
-chat-speech-verb-harpy-2 = щебечет
-chat-speech-verb-harpy-3 = каркает
-chat-speech-verb-harpy-4 = трилит
-
-chat-speech-verb-name-chitinid = Хитинид
-chat-speech-verb-chitinid-1 = щелкает
-chat-speech-verb-chitinid-2 = стрекочет
-chat-speech-verb-chitinid-3 = шипит
-chat-speech-verb-chitinid-4 = жужжит
+chat-speech-verb-harpy-1 = щебечет
+chat-speech-verb-harpy-2 = твитчет
+chat-speech-verb-harpy-3 = пищит
+chat-speech-verb-harpy-4 = трелит

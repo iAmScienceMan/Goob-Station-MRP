@@ -18,8 +18,6 @@ alerts-weightless-name = Невесомость
 alerts-weightless-desc =
     Гравитация перестала воздействовать на вас, и вы свободно парите. Найдите за что можно ухватиться, или метните или выстрелите чем-нибудь в противоположном направлении.
     Магнитные ботинки и джетпак помогут вам передвигаться с большей эффективностью.
-alerts-walking-name = Шаг
-alerts-walking-desc = Вы идёте шагом, двигаясь в медленном темпе.
 alerts-stunned-name = [color=yellow]Оглушены[/color]
 alerts-stunned-desc = Вы [color=yellow]оглушены[/color]! Что-то мешает вам двигаться или взаимодействовать с объектами.
 alerts-handcuffed-name = [color=yellow]В наручниках[/color]
@@ -66,8 +64,6 @@ alerts-bleed-name = [color=red]Кровотечение[/color]
 alerts-bleed-desc = У вас [color=red]кровотечение[/color].
 alerts-pacified-name = [color=green]Пацифизм[/color]
 alerts-pacified-desc = Вы чувствуете себя умиротворённо и не можете вредить живым существам.
-alerts-adrenaline-name = [color=red]Адреналин[/color]
-alerts-adrenaline-desc = Вас переполняет адреналин: боль не будет замедлять вас.
 alerts-suit-power-name = Заряд костюма
 alerts-suit-power-desc = Запас энергии вашего костюма космического ниндзя.
 alerts-magboots-name = Магнитные ботинки
@@ -76,3 +72,12 @@ alerts-revenant-essence-name = Эссенция
 alerts-revenant-essence-desc = Сила душ. Поддерживает вас и используется при использовании способностей. Медленно восстанавливается с течением времени.
 alerts-revenant-corporeal-name = Материальность
 alerts-revenant-corporeal-desc = Вы физически воплотились. Окружающие могут видеть и наносить вам вред.
+alerts-walking-name = Ходьба
+alerts-walking-desc = Показывает, насколько быстро вы двигаетесь.
+alerts-offer-name = Предложение
+alerts-offer-desc = Кто-то предлагает вам предмет.
+alerts-deflecting-name = Отражающий
+alerts-deflecting-desc = У вас есть шанс отразить летящие снаряды. Если вы будете стоять на месте или медленно двигаться, этот шанс увеличится.
+alerts-mana-name = Уровень маны
+alerts-mana-desc = Сколько маны доступно для использования ваших способностей.
+mana-alert = [font size=12][color=purple]Мана: { $mana }/{ $manaMax }[/color][/font]

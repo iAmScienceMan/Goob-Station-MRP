@@ -1,6 +1,6 @@
-lube-success = Вы покрыли { $target } смазкой!
+lube-success = Вы покрыли { THE($target) } смазкой!
 lubed-name-prefix = смазанный { $baseName }
-lube-failure = Не удалось покрыть { $target } смазкой!
-lube-slip = { CAPITALIZE($target) } выскальзывает из ваших рук!
+lube-failure = Не удалось покрыть { THE($target) } смазкой!
+lube-slip = { THE($target) } выскальзывает из ваших рук!
 lube-verb-text = Нанести смазку
 lube-verb-message = Покрыть предмет смазкой

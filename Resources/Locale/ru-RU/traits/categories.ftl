@@ -3,9 +3,9 @@
 trait-category-Uncategorized = Без категории
 trait-category-Auditory = Слуховые
 trait-category-Mental = Ментальные
-trait-category-Physical = Физические
-trait-category-Speech = Речь
-trait-category-TraitsSpeechUncategorized = Без категории
+trait-category-Physical = Психические
+trait-category-Speech = Разговорные
+trait-category-TraitsSpeechUncategorized = Несортированные
 trait-category-TraitsSpeechAccents = Акценты
 trait-category-TraitsSpeechLanguages = Языки
 trait-category-Visual = Визуальные

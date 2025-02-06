@@ -1,36 +1,25 @@
-station-beacon-epistemics = Научный
-station-beacon-mystagogue = Мистагог
-
+station-beacon-epistemics = Научный отдел
+station-beacon-mystagogue = Научный Директор
 station-beacon-logistics = Снабжение
 station-beacon-logistics-reception = Снабжение
-station-beacon-lo = КМ
-
-station-beacon-conference-room = Конференц зал
-
+station-beacon-lo = Квартирмейстер
+station-beacon-conference-room = Конференц-зал
 station-beacon-virology = Вирусология
-station-beacon-metempsychosis = Метемпсихозис
+station-beacon-metempsychosis = Метемпсихоз
 station-beacon-exam = Экзамен
-station-beacon-med-outpost = Медицинский Пост
-station-beacon-psych = Псих
-
-station-beacon-glimmer-prober = Пробер
+station-beacon-med-outpost = Медицинский аванпост
+station-beacon-psych = Психология
+station-beacon-glimmer-prober = Собиратель глиммера
 station-beacon-forensic-mantis = Мантис
-
 station-beacon-mailroom = Почта
-
-station-beacon-engi-outpost = Инженерный Пост
-
-station-beacon-janitor-office = Офис Уборщика
-station-beacon-janitor-closet = Кладовка Уборщика
+station-beacon-engi-outpost = Инженерский аванпост
+station-beacon-janitor-office = Офис уборщика
+station-beacon-janitor-closet = Шкаф уборщик
 station-beacon-reporter = Репортёр
-
 station-beacon-camera-servers = Камеры
-
-station-beacon-boxing-ring = Бокс
+station-beacon-boxing-ring = Боксёрская
 station-beacon-park = Парк
-
-station-beacon-corpsman = Бригмед
-
-station-beacon-justice = Юридический
-station-beacon-chiefjustice = Магистрат
-station-beacon-prosecutor = Прокурор
+station-beacon-corpsman = Полевой Врач
+station-beacon-justice = Судебная
+station-beacon-chiefjustice = Верховный Судья
+station-beacon-prosecutor = Инспектор

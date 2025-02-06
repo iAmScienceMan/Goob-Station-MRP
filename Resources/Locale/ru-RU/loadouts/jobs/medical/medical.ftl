@@ -1,19 +1,13 @@
-loadout-description-LoadoutMedicalUniformJumpskirtSenior = Юбка, достойная лучших из лучших.
-loadout-description-LoadoutMedicalUniformJumpsuitSenior = Костюм, достойный лучших из лучших.
-loadout-description-LoadoutMedicalHeadBeretSeniorPhysician = Берет, достойный лучших из лучших.
-
-loadout-name-LoadoutMedicalDoctorBeltMedical = медицинский пояс (пустой)
-loadout-name-LoadoutMedicalDoctorBeltMedicalFilled = медицинский пояс (заполненный)
-loadout-name-LoadoutMedicalDoctorBeltMedicalAdvancedFilled = медицинский пояс (заполненный, продвинутый)
-loadout-description-LoadoutMedicalDoctorBeltMedicalAdvancedFilled =
-    Стандартное количество местных препаратов в этом поясе заменено на их более продвинутые аналоги, такие как медикаментозные швы и регенеративная сетка.
-
-loadout-name-LoadoutChiefMedicalOfficerBeltMedical = медицинский пояс (пустой)
-loadout-name-LoadoutChiefMedicalOfficerBeltMedicalAdvancedFilled = медицинский пояс (заполненный, продвинутый)
-loadout-description-LoadoutChiefMedicalOfficerBeltMedicalAdvancedFilled =
-    Стандартное количество местных препаратов в этом поясе заменено на их более продвинутые аналоги, такие как медикаментозные швы и регенеративная сетка.
-
-loadout-name-LoadoutSeniorPhysicianBeltMedical = медицинский пояс (пустой)
-loadout-name-LoadoutSeniorPhysicianBeltMedicalAdvancedFilled = медицинский пояс (заполненный, продвинутый)
-loadout-description-LoadoutSeniorPhysicianBeltMedicalAdvancedFilled =
-    Стандартное количество местных препаратов в этом поясе заменено на их более продвинутые аналоги, такие как медикаментозные швы и регенеративная сетка.
+loadout-description-LoadoutMedicalUniformJumpskirtSenior = Юбка-водолазка, подходящая для лучших из лучших.
+loadout-description-LoadoutMedicalUniformJumpsuitSenior = Водолазка, подходящая для лучших из лучших.
+loadout-description-LoadoutMedicalHeadBeretSeniorPhysician = Берет, подходящая для лучших из лучших.
+loadout-name-LoadoutMedicalDoctorBeltMedical = Медицинский пояс (пустой)
+loadout-name-LoadoutMedicalDoctorBeltMedicalFilled = Медицинский пояс (полный)
+loadout-name-LoadoutMedicalDoctorBeltMedicalAdvancedFilled = Медицинский пояс (полный, продвинутый)
+loadout-description-LoadoutMedicalDoctorBeltMedicalAdvancedFilled = Стандартный набор лекарственных средств в этой сумке был заменен их усовершенствованными разновидностями, такими как медицинская нить и регенеративная сеть.
+loadout-name-LoadoutChiefMedicalOfficerBeltMedical = Медицинский пояс (пустой)
+loadout-name-LoadoutChiefMedicalOfficerBeltMedicalAdvancedFilled = Медицинский пояс (полный, продвинутый)
+loadout-description-LoadoutChiefMedicalOfficerBeltMedicalAdvancedFilled = Стандартный набор лекарственных средств в этой сумке был заменен их усовершенствованными разновидностями, такими как медицинская нить и регенеративная сеть.
+loadout-name-LoadoutSeniorPhysicianBeltMedical = Медицинский пояс (пустой)
+loadout-name-LoadoutSeniorPhysicianBeltMedicalAdvancedFilled = Медицинский пояс (полный, продвинутый)
+loadout-description-LoadoutSeniorPhysicianBeltMedicalAdvancedFilled = Стандартный набор лекарственных средств в этой сумке был заменен их усовершенствованными разновидностями, такими как медицинская нить и регенеративная сеть.

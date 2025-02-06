@@ -1,4 +1,4 @@
-ent-AirAlarmElectronics = микросхема воздушной сигнализации
-    .desc = Электронная плата, используемая в воздушных сигнализациях.
-ent-FireAlarmElectronics = микросхема пожарной сигнализации
-    .desc = Электронная плата, используемая в пожарных сигнализациях.
+ent-AirAlarmElectronics = Микросхема воздушной сигнализации
+    .desc = { ent-BaseItem.desc }
+ent-FireAlarmElectronics = Микросхема пожарной сигнализации
+    .desc = { ent-BaseItem.desc }

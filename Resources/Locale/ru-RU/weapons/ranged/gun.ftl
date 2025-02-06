@@ -5,7 +5,6 @@ gun-selected-mode = Выбран { $mode }
 gun-disabled = Вы не можете использовать оружие!
 gun-clumsy = Оружие взрывается вам в лицо!
 gun-set-fire-mode = Выбран режим { $mode }
-gun-magazine-whitelist-fail = Это не помещается в оружие!
 # SelectiveFire
 gun-SemiAuto = полуавто
 gun-Burst = очередь
@@ -40,9 +39,9 @@ gun-chamber-rack = Передёрнуть затвор
 # MagazineAmmoProvider
 gun-magazine-examine =
     Тут [color={ $color }]{ $count }[/color] { $count ->
-        [one] штука
-        [few] штуки
-       *[other] штук
+        [one] патрон
+        [few] патрона
+       *[other] патронов
     }.
 # RevolverAmmoProvider
 gun-revolver-empty = Разрядить револьвер

@@ -1,5 +1,5 @@
-advertisement-pride-1 = Будь геем – нарушай закон!
-advertisement-pride-2 = Полно красок!
-advertisement-pride-3 = Ты ценен!
-thankyou-pride-1 = Вперед, твори беззаконие!
-thankyou-pride-2 = Пусть твой день будет радужным!
+advertisement-pride-1 = Будь геем!
+advertisement-pride-2 = Полный цветов!
+advertisement-pride-3 = Ты правильный!
+thankyou-pride-1 = Вперёд, не нарушай законы!
+thankyou-pride-2 = Хорошего белого дня!

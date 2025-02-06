@@ -1,2 +1,2 @@
-reagent-effect-status-effect-PsionicallyInsulated = псионная изоляция
-reagent-effect-status-effect-PsionicsDisabled = невозможность использования псионных способностей
+reagent-effect-status-effect-PsionicallyInsulated = псионическая изоляция
+reagent-effect-status-effect-PsionicsDisabled = неспособность использовать псионические способности

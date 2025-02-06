@@ -1,5 +1,5 @@
-announcer-Intern-name=Центральное Командование
-announcer-MedBot-name=Автоматизация
-announcer-Michael-name=Михаил
-announcer-NEIL-name=Н.Е.И.Л.
-announcer-VoxFem-name=Автоматизация
+announcer-Intern-name = Центральное командование
+announcer-MedBot-name = Автоматическое
+announcer-Michael-name = Майкл
+announcer-NEIL-name = N.E.I.L.
+announcer-VoxFem-name = Автоматическое

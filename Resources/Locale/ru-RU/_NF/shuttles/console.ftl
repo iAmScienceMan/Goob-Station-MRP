@@ -1,3 +1,3 @@
-shuttle-console-inertia-dampener-off = Выключено
-shuttle-console-inertia-dampener-dampened = Подавлено
-shuttle-console-inertia-dampener-anchored = Закреплено
+shuttle-console-inertia-dampener-off = Крейсерская скорость
+shuttle-console-inertia-dampener-dampen = Движение
+shuttle-console-inertia-dampener-anchor = Парковка

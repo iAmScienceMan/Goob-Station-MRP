@@ -1,54 +1,43 @@
-marking-FelinidEarsBasic = Основные Уши
-marking-FelinidEarsBasic-basic_outer = Внешнее ухо
-marking-FelinidEarsBasic-basic_inner = Внутреннее ухо
-
-marking-FelinidEarsCurled = Завитые Уши
-marking-FelinidEarsCurled-curled_outer = Внешнее ухо
-marking-FelinidEarsCurled-curled_inner = Внутреннее ухо
-
-marking-FelinidEarsDroopy = Повисшие Уши
-marking-FelinidEarsDroopy-droopy_outer = Внешнее ухо
-marking-FelinidEarsDroopy-droopy_inner = Внутреннее ухо
-
-marking-FelinidEarsFuzzy = Пуховые Уши
-marking-FelinidEarsFuzzy-basic_outer = Внешнее ухо
-marking-FelinidEarsFuzzy-fuzzy_inner = Пух на ухе
-
-marking-FelinidEarsStubby = Короче Уши
-marking-FelinidEarsStubby-stubby_outer = Внешнее ухо
-marking-FelinidEarsStubby-stubby_inner = Внутреннее ухо
-
-marking-FelinidEarsTall = Высокие Уши
-marking-FelinidEarsTall-tall_outer = Внешнее ухо
-marking-FelinidEarsTall-tall_inner = Внутреннее ухо
-marking-FelinidEarsTall-tall_fuzz = Пух на ухе
-
-marking-FelinidEarsTorn = Рваные Уши
-marking-FelinidEarsTorn-torn_outer = Внешнее ухо
-marking-FelinidEarsTorn-torn_inner = Внутреннее ухо
-
-marking-FelinidEarsWide = Широкие Уши
-marking-FelinidEarsWide-wide_outer = Внешнее ухо
-marking-FelinidEarsWide-wide_inner = Внутреннее ухо
-
-marking-FelinidTailBasic = Основной Хвост
+marking-FelinidEarsBasic = Базовые уши
+marking-FelinidEarsBasic-basic_outer = Снаружи уха
+marking-FelinidEarsBasic-basic_inner = Внутри уха
+marking-FelinidEarsCurled = Загнутые уши
+marking-FelinidEarsCurled-curled_outer = Снаружи уха
+marking-FelinidEarsCurled-curled_inner = Внутри уха
+marking-FelinidEarsDroopy = Висячие уши
+marking-FelinidEarsDroopy-droopy_outer = Снаружи уха
+marking-FelinidEarsDroopy-droopy_inner = Внутри уха
+marking-FelinidEarsFuzzy = Пушистые уши
+marking-FelinidEarsFuzzy-basic_outer = Снаружи уха
+marking-FelinidEarsFuzzy-fuzzy_inner = Пух ушей
+marking-FelinidEarsStubby = Короткие уши
+marking-FelinidEarsStubby-stubby_outer = Снаружи уха
+marking-FelinidEarsStubby-stubby_inner = Внутри уха
+marking-FelinidEarsTall = Высокие уши
+marking-FelinidEarsTall-tall_outer = Снаружи уха
+marking-FelinidEarsTall-tall_inner = Внутри уха
+marking-FelinidEarsTall-tall_fuzz = Пух ушей
+marking-FelinidEarsTorn = Порванные уши
+marking-FelinidEarsTorn-torn_outer = Снаружи уха
+marking-FelinidEarsTorn-torn_inner = Внутри уха
+marking-FelinidEarsWide = Широкие уши
+marking-FelinidEarsWide-wide_outer = Снаружи уха
+marking-FelinidEarsWide-wide_inner = Внутри уха
+marking-FelinidTailBasic = Базовый хвост
 marking-FelinidTailBasic-basic_tail_tip = Кончик хвоста
 marking-FelinidTailBasic-basic_tail_stripes_even = Полосы на хвосте, четные
 marking-FelinidTailBasic-basic_tail_stripes_odd = Полосы на хвосте, нечетные
-
-marking-FelinidTailBasicWithBow = Основной Хвост с Бантами
+marking-FelinidTailBasicWithBow = Базовый хвост с бантом
 marking-FelinidTailBasicWithBow-basic_tail_tip = Кончик хвоста
 marking-FelinidTailBasicWithBow-basic_tail_stripes_even = Полосы на хвосте, четные
 marking-FelinidTailBasicWithBow-basic_tail_stripes_odd = Полосы на хвосте, нечетные
 marking-FelinidTailBasicWithBow-basic_bow = Бант
-
-marking-FelinidTailBasicWithBell = Основной Хвост с Колокольчиком
+marking-FelinidTailBasicWithBell = Базовый хвост с колокольчиком
 marking-FelinidTailBasicWithBell-basic_tail_tip = Кончик хвоста
 marking-FelinidTailBasicWithBell-basic_tail_stripes_even = Полосы на хвосте, четные
 marking-FelinidTailBasicWithBell-basic_tail_stripes_odd = Полосы на хвосте, нечетные
 marking-FelinidTailBasicWithBell-basic_bell = Колокольчик
-
-marking-FelinidTailBasicWithBowAndBell = Основной Хвост с Бантами и Колокольчиком
+marking-FelinidTailBasicWithBowAndBell = Базовый хвост с бантом и колокольчиком
 marking-FelinidTailBasicWithBowAndBell-basic_tail_tip = Кончик хвоста
 marking-FelinidTailBasicWithBowAndBell-basic_tail_stripes_even = Полосы на хвосте, четные
 marking-FelinidTailBasicWithBowAndBell-basic_tail_stripes_odd = Полосы на хвосте, нечетные

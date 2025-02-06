@@ -23,8 +23,10 @@ materials-meat = мясо
 materials-web = шёлк
 materials-bones = кости
 materials-coal = уголь
-materials-diamond = алмазы
-materials-gunpowder = чёрный порох
+materials-diamond = алмаз
+materials-gunpowder = порох
+materials-bluespace = блюспейс
+materials-normality = нормальность
 # Ores
 materials-raw-iron = руда железа
 materials-raw-quartz = руда кварца
@@ -34,4 +36,7 @@ materials-raw-plasma = руда плазмы
 materials-raw-uranium = руда урана
 materials-raw-bananium = руда бананиума
 materials-raw-salt = каменная соль
-materials-raw-diamond = необработанные алмазы
+materials-raw-bluespace = руда блюспейса
+materials-raw-normality = руда обыкновенности
+# Material Reclaimer
+material-reclaimer-upgrade-process-rate = Скорость обработки

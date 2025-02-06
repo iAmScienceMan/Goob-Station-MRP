@@ -27,26 +27,21 @@ game-ticker-get-info-preround-text =
     >[color=yellow]{ $desc }[/color]
 game-ticker-no-map-selected = [color=red]Карта ещё не выбрана![/color]
 game-ticker-player-no-jobs-available-when-joining = При попытке присоединиться к игре ни одной роли не было доступно.
-game-ticker-welcome-to-the-station = Добро пожаловать на станцию, экипаж! Наслаждайтесь пребыванием!
-
+game-ticker-welcome-to-the-station = Добро пожаловать в команду станции, приятного вам пребывания!
 # Displayed in chat to admins when a player joins
 player-join-message = Игрок { $name } зашёл!
 player-first-join-message = Игрок { $name } зашёл на сервер впервые.
 # Displayed in chat to admins when a player leaves
-player-leave-message = Игрок {$name} покинул(а) игру.
-latejoin-arrival-announcement = {$character} ({$job}) прибыл(а) на станцию!
-latejoin-arrival-sender = Станция
-latejoin-arrivals-direction = Шаттл, который доставит вас на станцию, скоро прибудет.
-latejoin-arrivals-direction-time = Шаттл, который доставит вас на станцию, прибудет через {$time}.
-
-latejoin-arrival-announcement-special = { $job } { $character } на палубе!
+player-leave-message = Игрок { $name } вышел!
+latejoin-arrival-announcement =
+    { $character } ({ $job }) { $gender ->
+        [male] прибыл
+        [female] прибыла
+        [epicene] прибыли
+       *[neuter] прибыл
+    } на станцию!
 latejoin-arrival-sender = Станции
 latejoin-arrivals-direction = Вскоре прибудет шаттл, который доставит вас на станцию.
 latejoin-arrivals-direction-time = Шаттл, который доставит вас на станцию, прибудет через { $time }.
-latejoin-arrivals-dumped-from-shuttle = Таинственная сила не позволяет вам улететь на шаттле прибытия.
-latejoin-arrivals-teleport-to-spawn = Таинственная сила телепортирует вас с шаттла прибытия. Удачной смены!
 preset-not-enough-ready-players = Не удалось запустить пресет { $presetName }. Требуется { $minimumPlayers } игроков, но готовы только { $readyPlayersCount }.
 preset-no-one-ready = Не удалось запустить режим { $presetName }. Нет готовых игроков.
-game-run-level-PreRoundLobby = Предраундовое лобби
-game-run-level-InRound = В раунде
-game-run-level-PostRound = После раунда

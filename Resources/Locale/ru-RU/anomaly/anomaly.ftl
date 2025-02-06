@@ -2,12 +2,14 @@ anomaly-component-contact-damage = Аномалия сдирает с вас к�
 anomaly-vessel-component-anomaly-assigned = Аномалия присвоена сосуду.
 anomaly-vessel-component-not-assigned = Этому сосуду не присвоена ни одна аномалия. Попробуйте использовать на нём сканер.
 anomaly-vessel-component-assigned = Этому сосуду уже присвоена аномалия.
+anomaly-vessel-component-upgrade-output = точка выхода
 anomaly-particles-delta = Дельта-частицы
 anomaly-particles-epsilon = Эпсилон-частицы
 anomaly-particles-zeta = Зета-частицы
 anomaly-particles-omega = Омега-частицы
 anomaly-particles-sigma = Сигма-частицы
 anomaly-scanner-component-scan-complete = Сканирование завершено!
+anomaly-scanner-scan-copied = Скопированы данные сканирования аномалии!
 anomaly-scanner-ui-title = сканер аномалий
 anomaly-scanner-no-anomaly = Нет просканированной аномалии.
 anomaly-scanner-severity-percentage = Текущая опасность: [color=gray]{ $percent }[/color]
@@ -84,7 +86,6 @@ anomaly-behavior-rapid = Частота пульсаций значительн�
 anomaly-behavior-reflect = Обнаружено защитное покрытие.
 anomaly-behavior-nonsensivity = Обнаружена слабая реакция на частицы.
 anomaly-behavior-sensivity = Обнаружена сильная реакция на частицы.
-anomaly-behavior-invisibility = Обнаружено искажение светового потока.
 anomaly-behavior-secret = Обнаружены помехи. Некоторые данные не могут быть считаны
 anomaly-behavior-inconstancy = [color=crimson]Обнаружено непостоянство. Со временем типы частиц могут поменяться.[/color]
 anomaly-behavior-fast = [color=crimson]Частота импульсов значительно повышена.[/color]

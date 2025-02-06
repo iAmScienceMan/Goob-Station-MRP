@@ -1,3 +1,3 @@
-loadout-description-LoadoutCommandCENeckMantle = Чтобы показать, кто здесь имеет власть. Кажется, это слишком сложное решение.
-loadout-description-LoadoutCommandCENeckCloak = Чтобы действительно показать, кто здесь имеет власть. Кажется, это слишком сложное решение.
-loadout-description-LoadoutCommandCEOuterWinter = Тёплое пальто для холодов космоса. Кажется, это слишком сложное решение.
+loadout-description-LoadoutCommandCENeckMantle = Вспоминается каждый шлюз, что вы взломали до этого. Выглядит замудрёно.
+loadout-description-LoadoutCommandCENeckCloak = Покажите им кто тут босс. Выглядит замудрёно.
+loadout-description-LoadoutCommandCEOuterWinter = Тёплая куртка, спасёт от холода фрезона. Выглядит замудрёно.

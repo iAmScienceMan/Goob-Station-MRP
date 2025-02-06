@@ -1,2 +1,2 @@
-chat-radio-justice = Юридический
-chat-radio-prison = Тюремный
+chat-radio-justice = Судья
+chat-radio-prison = Тюрьма

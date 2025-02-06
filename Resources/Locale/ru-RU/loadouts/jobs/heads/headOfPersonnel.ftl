@@ -1,4 +1,5 @@
-loadout-description-LoadoutCommandHOPNeckMantle = Чтобы показать, кто здесь имеет власть.
-loadout-description-LoadoutCommandHOPNeckCloak = Чтобы действительно показать, кто здесь имеет власть.
-loadout-description-LoadoutCommandHOPBackIan = Рюкзак, который выглядит как Ян, как мило!
-loadout-description-LoadoutCommandHOPHatCap = Кепка ГП, довольно симпатичная.
+loadout-description-LoadoutCommandHOPNeckMantle = Покажите им кто тут папочка.
+loadout-description-LoadoutCommandHOPNeckCloak = Стройный плащ для властных и сильных.
+loadout-description-LoadoutCommandHOPBackIan = Рюкзак ввиде собачки, милота!
+loadout-description-LoadoutCommandHOPHatCap = Фуражка главы персонала, прикольно.
+loadout-name-LoadoutHeadOfPersonnelGlovesInspection = Перчатки инспектора (окрашиваемый)

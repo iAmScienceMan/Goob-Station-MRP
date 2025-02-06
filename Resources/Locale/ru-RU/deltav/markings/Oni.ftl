@@ -1,4 +1,4 @@
-marking-OniHornShaved = Обрезанные рога
-marking-OniHornShaved-shaved = Обрезанные
-marking-OniHornBull = Быкиные рога
-marking-OniHornBull-bull = Быкиные рога
+marking-OniHornShaved = Побритый
+marking-OniHornShaved-shaved = Побритый
+marking-OniHornBull = Бык
+marking-OniHornBull-bull = Бык

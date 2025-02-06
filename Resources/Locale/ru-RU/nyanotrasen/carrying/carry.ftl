@@ -1,4 +1,3 @@
-carry-verb = Носить
-
-carry-too-heavy = Ты не достаточно силен.
-carry-started = {THE($carrier)} пытается поднять тебя!
+carry-verb = Таскать
+carry-too-heavy = Вы не достаточно сильный.
+carry-started = { THE($carrier) } пытается поднять вас!

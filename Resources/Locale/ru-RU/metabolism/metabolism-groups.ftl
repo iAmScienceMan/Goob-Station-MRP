@@ -1,8 +1,8 @@
-metabolism-group-poison = Яды
-metabolism-group-medicine = Лекарства
-metabolism-group-narcotic = Наркотики
+metabolism-group-poison = Яд
+metabolism-group-medicine = Медицина
+metabolism-group-narcotic = Наркотик
 metabolism-group-alcohol = Алкоголь
-metabolism-group-food = Пища
-metabolism-group-drink = Напитки
-metabolism-group-gas = Газы
-metabolism-group-plant-metabolisms = Метаболизм растений
+metabolism-group-food = Еда
+metabolism-group-drink = Напиток
+metabolism-group-gas = Газ
+metabolism-group-calm = Успокоительное

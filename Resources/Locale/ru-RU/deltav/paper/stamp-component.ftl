@@ -1,5 +1,5 @@
 stamp-component-stamped-name-lawyer = Адвокат
 stamp-component-stamped-name-psychologist = Психолог
-stamp-component-stamped-name-notary = НОТАРИУС
-stamp-component-stamped-name-chiefjustice = Магистрат
-stamp-component-stamped-name-admin-assistant = Административный Помощник
+stamp-component-stamped-name-notary = Нотариус
+stamp-component-stamped-name-chiefjustice = Верховный Судья
+stamp-component-stamped-name-admin-assistant = Адъютант

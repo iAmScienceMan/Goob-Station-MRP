@@ -1,17 +1,16 @@
 ### Connecting dialog when you start up the game
 
-connecting-title = Space Station 14
+connecting-title = Lost Paradise
 connecting-exit = Выйти
 connecting-retry = Повторить
 connecting-reconnect = Переподключиться
-connecting-copy = Скопировать сообщение
 connecting-redial = Перезапустить
 connecting-redial-wait = Пожалуйста подождите: { TOSTRING($time, "G3") }
 connecting-in-progress = Подключение к серверу...
 connecting-disconnected = Отключён от сервера:
-connecting-tip = Не умирай!
+connecting-tip = Играй РП!
 connecting-window-tip = Совет { $numberTip }
-connecting-version = версия 0.1
+connecting-version = Версия 2.0.6
 connecting-fail-reason =
     Не удалось подключиться к серверу:
     { $reason }

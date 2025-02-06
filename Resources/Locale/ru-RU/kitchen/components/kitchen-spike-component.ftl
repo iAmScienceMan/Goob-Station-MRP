@@ -8,7 +8,7 @@ comp-kitchen-spike-deny-not-dead =
         [epicene] ещё живы
        *[neuter] ещё живо
     }!
-comp-kitchen-spike-begin-hook-victim = { CAPITALIZE($user) } начинает насаживать вас на { $this }!
+comp-kitchen-spike-begin-hook-victim = { $user } начинает насаживать вас на { $this }!
 comp-kitchen-spike-begin-hook-self = Вы начинаете насаживать себя на { $this }!
 comp-kitchen-spike-kill = { CAPITALIZE($user) } насаживает { $victim } на мясной крюк, тем самым убивая { SUBJECT($victim) }!
 comp-kitchen-spike-suicide-other = { CAPITALIZE($victim) } бросается на мясной крюк!

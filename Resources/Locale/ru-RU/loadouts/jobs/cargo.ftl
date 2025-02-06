@@ -1,1 +1,1 @@
-loadout-description-LoadoutCargoNeckGoliathCloak = Для величайших из команды утилизаторов.
+loadout-description-LoadoutCargoNeckGoliathCloak = Лишь для властных личностей.

@@ -1,1 +1,1 @@
-﻿biscuit-verb-crack = Крэк
+biscuit-verb-crack = Порвать

@@ -1,4 +1,4 @@
-station-event-ion-storm-start-announcement = Вблизи станции обнаружен ионный шторм. Пожалуйста, проверьте всё оборудование, управляемое ИИ, на наличие ошибок.
+station-event-ion-storm-announcement = Вблизи станции обнаружен ионный шторм. Пожалуйста, проверьте всё оборудование, управляемое ИИ, на наличие ошибок.
 ion-storm-law-scrambled-number = [font="Monospace"][scramble rate=250 length={ $length } chars="@@###$$&%!01"/][/font]
 ion-storm-you = ВЫ
 ion-storm-the-station = СТАНЦИЯ
@@ -7,7 +7,6 @@ ion-storm-the-job = { CAPITALIZE($job) }
 ion-storm-clowns = КЛОУНЫ
 ion-storm-heads = ГЛАВЫ ОТДЕЛОВ
 ion-storm-crew = ЭКИПАЖ
-ion-storm-people = ЛЮДИ
 ion-storm-adjective-things = { $adjective } ОБЪЕКТЫ
 ion-storm-x-and-y = { $x } И { $y }
 # joined is short for {$number} {$adjective}

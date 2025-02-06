@@ -1,3 +1,3 @@
-ent-ClosetCursed = шкаф
-    .desc = Стандартное хранилище Nanotrasen.
-    .suffix = проклятый
+ent-ClosetCursed = Шкаф
+    .desc = Стандартное хранилище НаноТрейзен.
+    .suffix = Проклятый

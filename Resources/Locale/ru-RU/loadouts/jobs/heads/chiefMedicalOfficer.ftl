@@ -1,5 +1,5 @@
-loadout-description-LoadoutCommandCMONeckMantle = Чтобы показать, кто здесь имеет власть. Кажется, необычно чисто.
-loadout-description-LoadoutCommandCMONeckCloak = Чтобы действительно показать, кто здесь имеет власть. Кажется, необычно чисто.
-loadout-description-LoadoutCommandCMOOuterWinter = Тёплое пальто для холодов космоса. Кажется, необычно чисто.
-loadout-description-LoadoutCommandCMOOuterLab = Лабораторный халат для ГВ. Кажется, необычно чисто.
-loadout-description-LoadoutCommandCMOHatBeret = Берет для ГВ. Кажется, необычно чисто.
+loadout-description-LoadoutCommandCMONeckMantle = Покажите им, кто тут настоящий доктор. Пахнет лекарствами.
+loadout-description-LoadoutCommandCMONeckCloak = Выглядит необычайно стерильно. Пахнет лекарствами.
+loadout-description-LoadoutCommandCMOOuterWinter = Тёплая куртка, которая защитит от холода в морге.
+loadout-description-LoadoutCommandCMOOuterLab = Халат главного врача, что защитит вас от воздействия кислот. Пахнет лекарствами.
+loadout-description-LoadoutCommandCMOHatBeret = Берет главного врача. Пахнет лекарствами.

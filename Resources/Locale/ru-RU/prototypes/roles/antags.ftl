@@ -1,7 +1,7 @@
 roles-antag-syndicate-agent-name = Агент Синдиката
 roles-antag-syndicate-agent-objective = Выполните свои задачи и не попадитесь.
-roles-antag-syndicate-agent-sleeper-name = Спящий агент Синдиката
-roles-antag-syndicate-agent-sleeper-objective = Разновидность агента Синдиката, который может активироваться и начать действие в любой момент смены.
+roles-antag-syndicate-agent-sleeper-name = Спящий Агент Синдиката
+roles-antag-syndicate-agent-sleeper-objective = Вариация Агента Синдиката, который может активироваться в любой момент в течение смены.
 roles-antag-initial-infected-name = Нулевой заражённый
 roles-antag-initial-infected-objective = После превращения заразите как можно больше других членов экипажа.
 roles-antag-zombie-name = Зомби
@@ -21,6 +21,4 @@ roles-antag-subverted-silicon-objective = Следуйте своим новым
 roles-antag-space-ninja-name = Космический ниндзя
 roles-antag-space-ninja-objective = Используйте свою скрытность, чтобы устроить диверсию на станции, подпитывайтесь от электрических проводов.
 roles-antag-thief-name = Вор
-roles-antag-thief-objective = Пополните свою личную коллекцию имуществом Nanotrasen, не прибегая к насилию.
-roles-antag-dragon-name = Космический дракон
-roles-antag-dragon-objective = Создайте армию карпов для захвата квадранта.
+roles-antag-thief-objective = Пополните свою личную коллекцию имуществом НаноТрейзен, не прибегая к насилию.
