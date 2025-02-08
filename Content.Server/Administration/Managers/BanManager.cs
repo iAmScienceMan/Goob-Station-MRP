@@ -21,6 +21,10 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
+using Content.Shared._Celestial.CelestialCCVars; // Добавлено для доступа к CelestialCCVars
+using System.Net.Http;
+using System.Text.Json;
+using System;
 
 namespace Content.Server.Administration.Managers;
 
@@ -48,6 +52,9 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
     private readonly Dictionary<ICommonSession, List<ServerRoleBanDef>> _cachedRoleBans = new();
     // Cached ban exemption flags are used to handle
     private readonly Dictionary<ICommonSession, ServerBanExemptFlags> _cachedBanExemptions = new();
+
+    private int _banCounter = 0; // Добавляем счетчик банов
+    private readonly object _banCounterLock = new object(); // Для потокобезопасности
 
     public void Initialize()
     {
@@ -157,15 +164,20 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
             null);
 
         await _db.AddServerBanAsync(banDef);
+
+        // Выносим определения переменных сюда, чтобы они были доступны для Webhook
         var adminName = banningAdmin == null
             ? Loc.GetString("system-user")
             : (await _db.GetPlayerRecordByUserId(banningAdmin.Value))?.LastSeenUserName ?? Loc.GetString("system-user");
         var targetName = target is null ? "null" : $"{targetUsername} ({target})";
+        var expiresString = expires == null ? Loc.GetString("server-ban-string-never") : $"{expires}";
+        var roundIdString = roundId?.ToString() ?? "Неизвестно";
+
+        // Формируем строки для IP и HWID
         var addressRangeString = addressRange != null
             ? $"{addressRange.Value.Item1}/{addressRange.Value.Item2}"
             : "null";
         var hwidString = hwid?.ToString() ?? "null";
-        var expiresString = expires == null ? Loc.GetString("server-ban-string-never") : $"{expires}";
 
         var key = _cfg.GetCVar(CCVars.AdminShowPIIOnBan) ? "server-ban-string" : "server-ban-string-no-pii";
 
@@ -183,6 +195,29 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
         _chat.SendAdminAlert(logMessage);
 
         KickMatchingConnectedPlayers(banDef, "newly placed ban");
+
+        // Получаем следующий номер бана
+        int banNumber = GetNextBanNumber();
+
+        // Отправка в Discord webhook
+        await SendDiscordWebhook(CelestialCCVars.DiscordBanWebhook, $"Новый Бан #{banNumber}",
+            new Dictionary<string, string?>
+            {
+                { "Администратор", adminName },
+                { "Цель", targetName },
+                { "Срок истечения", expiresString },
+                { "Причина", reason },
+                { "Серьезность", severity.ToString() },
+                { "Раунд", roundIdString } // Добавляем информацию о раунде
+            }, expires);
+    }
+
+    private int GetNextBanNumber()
+    {
+        lock (_banCounterLock)
+        {
+            return ++_banCounter;
+        }
     }
 
     private void KickMatchingConnectedPlayers(ServerBanDef def, string source)
@@ -258,11 +293,22 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
             null,
             role);
 
-        if (!await AddRoleBan(banDef))
-        {
-            _chat.SendAdminAlert(Loc.GetString("cmd-roleban-existing", ("target", targetUsername ?? "null"), ("role", role)));
-            return;
-        }
+        await _db.AddServerRoleBanAsync(banDef);
+
+         // Выносим определения переменных сюда, чтобы они были доступны для Webhook
+        var adminName = banningAdmin == null
+            ? Loc.GetString("system-user")
+            : (await _db.GetPlayerRecordByUserId(banningAdmin.Value))?.LastSeenUserName ?? Loc.GetString("system-user");
+        var targetName = target is null ? "null" : $"{targetUsername} ({target})";
+        var expiresString = expires == null ? Loc.GetString("server-ban-string-never") : $"{expires}";
+        var roundIdString = roundId?.ToString() ?? "Неизвестно";
+
+        // Формируем строки для IP и HWID
+        var addressRangeString = addressRange != null
+            ? $"{addressRange.Value.Item1}/{addressRange.Value.Item2}"
+            : "null";
+        var hwidString = hwid?.ToString() ?? "null";
+
 
         var length = expires == null ? Loc.GetString("cmd-roleban-inf") : Loc.GetString("cmd-roleban-until", ("expires", expires));
         _chat.SendAdminAlert(Loc.GetString("cmd-roleban-success", ("target", targetUsername ?? "null"), ("role", role), ("reason", reason), ("length", length)));
@@ -271,6 +317,22 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
         {
             SendRoleBans(session);
         }
+
+        // Получаем следующий номер бана
+        int banNumber = GetNextBanNumber();
+
+        // Отправка в Discord webhook
+        await SendDiscordWebhook(CelestialCCVars.DiscordRoleBanWebhook, $"Новый Бан Роли #{banNumber}",
+            new Dictionary<string, string?>
+            {
+                { "Администратор", adminName },
+                { "Цель", targetName },
+                { "Роль", role },
+                { "Срок истечения", expiresString },
+                { "Причина", reason },
+                { "Серьезность", severity.ToString() },
+                { "Раунд", roundIdString } // Добавляем информацию о раунде
+            }, expires);
     }
 
     public async Task<string> PardonRoleBan(int banId, NetUserId? unbanningAdmin, DateTimeOffset unbanTime)
@@ -339,4 +401,69 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
     {
         _sawmill = _logManager.GetSawmill(SawmillId);
     }
+
+    //Новая версия SendDiscordWebhook с Embed
+    private async Task SendDiscordWebhook(CVarDef<string> webhookCvar, string title, Dictionary<string, string?> fields, DateTimeOffset? expires = null)
+    {
+        var webhookUrl = _cfg.GetCVar(webhookCvar);
+
+        if (string.IsNullOrEmpty(webhookUrl))
+        {
+            return; // Webhook URL не настроен
+        }
+
+        using var httpClient = new HttpClient();
+
+        // Определяем цвет Embed в зависимости от времени истечения бана
+        string color = GetEmbedColor(expires);
+
+        var embed = new
+        {
+            title = title,
+            fields = fields.Select(kv => new { name = kv.Key, value = kv.Value ?? "N/A" }).ToArray(), // Убираем inline
+            color = int.Parse(color, System.Globalization.NumberStyles.HexNumber) // Преобразуем hex-код в integer
+        };
+
+        var payload = new
+        {
+            embeds = new[] { embed }
+        };
+
+        var jsonPayload = JsonSerializer.Serialize(payload);
+        var content = new StringContent(jsonPayload, Encoding.UTF8, "application/json");
+
+        try
+        {
+            var response = await httpClient.PostAsync(webhookUrl, content);
+            response.EnsureSuccessStatusCode(); // Вызовет исключение, если код состояния не успешен
+        }
+        catch (HttpRequestException e)
+        {
+            _sawmill.Error($"Ошибка при отправке вебхука в Discord: {e.Message}");
+        }
+    }
+
+    // Метод для определения цвета Embed
+    private string GetEmbedColor(DateTimeOffset? expires)
+        {
+            if (expires == null)
+            {
+                return "FF0000";
+            }
+
+            TimeSpan timeLeft = expires.Value - DateTimeOffset.Now;
+
+            if (timeLeft.TotalDays > 30)
+            {
+                return "DC143C"; 
+            }
+            else if (timeLeft.TotalDays > 7)
+            {
+                return "B22222"; 
+            }
+            else
+            {
+                return "8B0000";
+            }
+        }
 }
