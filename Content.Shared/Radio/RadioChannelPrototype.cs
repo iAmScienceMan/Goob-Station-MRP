@@ -1,4 +1,5 @@
 using Robust.Shared.Prototypes;
+using Robust.Shared.Audio;  
 
 namespace Content.Shared.Radio;
 
@@ -43,4 +44,9 @@ public sealed partial class RadioChannelPrototype : IPrototype
     [DataField, ViewVariables]
     public bool ShowFrequency = false;
     // End Frontier
+
+    /// Звук передачи сообщений в рации
+    /// </summary>
+    [DataField]
+    public SoundSpecifier? OnSendSound = null;
 }

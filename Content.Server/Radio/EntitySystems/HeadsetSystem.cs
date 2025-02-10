@@ -10,6 +10,8 @@ using Content.Shared.Radio.Components;
 using Content.Shared.Radio.EntitySystems;
 using Robust.Shared.Network;
 using Robust.Shared.Player;
+using Robust.Shared.Audio;
+using Robust.Shared.Audio.Systems;
 
 namespace Content.Server.Radio.EntitySystems;
 
@@ -100,6 +102,10 @@ public sealed class HeadsetSystem : SharedHeadsetSystem
             UpdateRadioChannels(uid, component);
         }
     }
+
+
+    private static readonly SoundSpecifier DefaultOnSound =
+        new SoundPathSpecifier("/Audio/_Celestial/Radio/common.ogg", AudioParams.Default.WithVolume(-6).WithMaxDistance(2));
 
     private void OnHeadsetReceive(EntityUid uid, HeadsetComponent component, ref RadioReceiveEvent args)
     {

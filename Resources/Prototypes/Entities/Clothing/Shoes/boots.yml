@@ -33,6 +33,11 @@
     sprite: Clothing/Shoes/Boots/jackboots.rsi
   - type: ClothingSlowOnDamageModifier
     modifier: 0.8
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepSoldier
+      params:
+        volume: -2
 
 - type: entity
   parent: ClothingShoesMilitaryBase
@@ -91,6 +96,11 @@
     sprite: Clothing/Shoes/Boots/combatboots.rsi
   - type: ClothingSlowOnDamageModifier
     modifier: 0.8
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepSoldier
+      params:
+        volume: -2
 
 - type: entity
   parent: ClothingShoesMilitaryBase
