@@ -32,23 +32,23 @@ chat-emote-name-robotbeep = Робо бип
 chat-emote-name-yawn = Зевать
 chat-emote-name-snore = Храпеть
 # Harpy
-chat-emote-name-harpyring = Ring
-chat-emote-name-harpypew = Pew
-chat-emote-name-harpybang = Bang
-chat-emote-name-harpyrev = Rev
-chat-emote-name-harpycaw = Caw
+chat-emote-name-harpyring = Кольцо
+chat-emote-name-harpypew = Пью
+chat-emote-name-harpybang = Бах
+chat-emote-name-harpyrev = Рев
+chat-emote-name-harpycaw = Кав
 # Vulp
-chat-emote-name-tailwag = Wag Tail
-chat-emote-name-vulpbark = Bark
-chat-emote-name-vulpsnarl = Snarl
-chat-emote-name-vulpwhine = Whine
-chat-emote-name-vulphowl = Howl
+chat-emote-name-tailwag = Вилять хвостом
+chat-emote-name-vulpbark = Лаять
+chat-emote-name-vulpsnarl = Рычать
+chat-emote-name-vulpwhine = Скулить
+chat-emote-name-vulphowl = Завыть
 # Felinid
-chat-emote-name-meow = Meow
-chat-emote-name-mew = Mew
-chat-emote-name-purr = Purr
-chat-emote-name-hisses = Hiss
-chat-emote-name-growl = Growl
+chat-emote-name-meow = Мяу
+chat-emote-name-mew = Мяв
+chat-emote-name-purr = Прр
+chat-emote-name-hisses = Хисc
+chat-emote-name-growl = Рычание
 chat-emote-name-mars = Марс
 chat-emote-name-wurble = Журчать
 # Message

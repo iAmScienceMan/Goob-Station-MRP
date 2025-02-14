@@ -240,7 +240,7 @@
   name: chat-emote-name-weh
   category: Vocal
   icon: Interface/Emotes/weh.png
-  chatMessages: [ wehs ]
+  chatMessages: [ вех ]
 
 - type: emote
   id: Chirp
@@ -277,9 +277,9 @@
     tags:
     - SiliconEmotes
     - HarpyEmotes
-  chatMessages: [ boops ]
+  chatMessages: [ бупает ]
   chatTriggers:
-    - boops
+    - бупает
 
 - type: emote
   id: Chime
@@ -328,9 +328,9 @@
     tags:
     - SiliconEmotes
     - HarpyEmotes
-  chatMessages: [ whirrs ]
+  chatMessages: [ жужжит ]
   chatTriggers:
-    - whirrs
+    - жужжит
 
 - type: emote
   id: Mars
@@ -343,9 +343,9 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [ mars ]
+  chatMessages: [ марсит ]
   chatTriggers:
-    - mars
+    - марсит
 
 - type: emote
   id: Wurble
@@ -358,6 +358,6 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [ wurble ]
+  chatMessages: [ вурчит ]
   chatTriggers:
-    - wurble
+    - вурчит

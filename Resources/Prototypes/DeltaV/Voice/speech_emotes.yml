@@ -9,9 +9,9 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [ rings ]
+  chatMessages: [ звонит ]
   chatTriggers:
-    - rings
+    - звонит
 
 - type: emote
   id: HarpyPew
@@ -24,10 +24,10 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [ pews ]
+  chatMessages: [ издаёт "пиу" ]
   chatTriggers:
-    - pews
-    - pewpews
+    - издаёт "пиу"
+    - издаёт "пиупиу"
 
 - type: emote
   id: HarpyBang
@@ -40,9 +40,9 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [ bangs ]
+  chatMessages: [ грохочет ]
   chatTriggers:
-    - bangs
+    - грохочет
 
 - type: emote
   id: HarpyRev
@@ -55,9 +55,9 @@
     components:
     - BorgChassis
   category: Vocal
-  chatMessages: [ revs ]
+  chatMessages: [ набирает обороты ]
   chatTriggers:
-    - revs
+    - набирает обороты
 
 - type: emote
   id: HarpyCaw
@@ -70,9 +70,9 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [ caws ]
+  chatMessages: [ издаёт "кау" ]
   chatTriggers:
-    - caws
+    - издаёт "кау"
 
 #Vulpkanin
 - type: emote
@@ -87,9 +87,9 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [ barks ]
+  chatMessages: [ лает ]
   chatTriggers:
-    - barks
+    - лает
 
 - type: emote
   id: Snarl
@@ -103,9 +103,9 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [ snarls ]
+  chatMessages: [ рычит ]
   chatTriggers:
-    - snarls
+    - рычит
 
 - type: emote
   id: Whine
@@ -119,9 +119,9 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [ whines ]
+  chatMessages: [ ноет ]
   chatTriggers:
-    - whines
+    - ноет
 
 - type: emote
   id: Howl
@@ -135,9 +135,9 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [ howls ]
+  chatMessages: [ воет ]
   chatTriggers:
-    - howls
+    - воет
 
 - type: emote
   id: Awoo
@@ -150,6 +150,6 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [awoos.]
+  chatMessages: [аууучит.]
   chatTriggers:
-    - awoos
+    - аууучит
