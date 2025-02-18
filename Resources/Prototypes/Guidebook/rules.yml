@@ -4,165 +4,85 @@
   name: Правила сервера
   priority: 0
   ruleEntry: true
-  text: "/ServerInfo/Guidebook/ServerRules/MrpRuleset.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/CelestialRuleset.xml"
   children:
-  - CelestialRule0
   - CelestialRule1
   - CelestialRule2
   - CelestialRule3
-  - CelestialRule31
-  - CelestialRule32
-  - CelestialRule33
-  - CelestialRule34
-  - CelestialRule35
-  - CelestialRule36
-  - CelestialRule37
-  - CelestialRule38
-  - CelestialRule39
   - CelestialRule4
   - CelestialRule5
   - CelestialRule6
   - CelestialRule7
   - CelestialRule8
   - CelestialRule9
-  - CelestialPunishmentTypes
-
-- type: guideEntry
-  id: CelestialPunishmentTypes
-  name: Игровые наказания
-  priority: 20
-  ruleEntry: true
-  text: "/ServerInfo/Guidebook/ServerRules/PunishmentTypes.xml"
-
-- type: guideEntry
-  id: CelestialRule0
-  name: Правило 0
-  priority: 1
-  ruleEntry: true
-  text: "/ServerInfo/Guidebook/ServerRules/Rule0.xml"
+  - CelestialRule10
 
 - type: guideEntry
   id: CelestialRule1
   name: Правило 1
-  priority: 2
+  priority: 1
   ruleEntry: true
   text: "/ServerInfo/Guidebook/ServerRules/Rule1.xml"
 
 - type: guideEntry
   id: CelestialRule2
   name: Правило 2
-  priority: 3
+  priority: 2
   ruleEntry: true
   text: "/ServerInfo/Guidebook/ServerRules/Rule2.xml"
 
 - type: guideEntry
   id: CelestialRule3
   name: Правило 3
-  priority: 4
+  priority: 3
   ruleEntry: true
   text: "/ServerInfo/Guidebook/ServerRules/Rule3.xml"
 
 - type: guideEntry
-  id: CelestialRule31
-  name: Правило 3.1
-  priority: 5
-  ruleEntry: true
-  text: "/ServerInfo/Guidebook/ServerRules/Rule3.1.xml"
-
-- type: guideEntry
-  id: CelestialRule32
-  name: Правило 3.2
-  priority: 6
-  ruleEntry: true
-  text: "/ServerInfo/Guidebook/ServerRules/Rule3.2.xml"
-
-- type: guideEntry
-  id: CelestialRule33
-  name: Правило 3.3
-  priority: 7
-  ruleEntry: true
-  text: "/ServerInfo/Guidebook/ServerRules/Rule3.3.xml"
-
-- type: guideEntry
-  id: CelestialRule34
-  name: Правило 3.4
-  priority: 8
-  ruleEntry: true
-  text: "/ServerInfo/Guidebook/ServerRules/Rule3.4.xml"
-
-- type: guideEntry
-  id: CelestialRule35
-  name: Правило 3.5
-  priority: 9
-  ruleEntry: true
-  text: "/ServerInfo/Guidebook/ServerRules/Rule3.5.xml"
-
-- type: guideEntry
-  id: CelestialRule36
-  name: Правило 3.6
-  priority: 10
-  ruleEntry: true
-  text: "/ServerInfo/Guidebook/ServerRules/Rule3.6.xml"
-
-- type: guideEntry
-  id: CelestialRule37
-  name: Правило 3.7
-  priority: 11
-  ruleEntry: true
-  text: "/ServerInfo/Guidebook/ServerRules/Rule3.7.xml"
-
-- type: guideEntry
-  id: CelestialRule38
-  name: Правило 3.8
-  priority: 12
-  ruleEntry: true
-  text: "/ServerInfo/Guidebook/ServerRules/Rule3.8.xml"
-
-- type: guideEntry
-  id: CelestialRule39
-  name: Правило 3.9
-  priority: 13
-  ruleEntry: true
-  text: "/ServerInfo/Guidebook/ServerRules/Rule3.9.xml"
-
-- type: guideEntry
   id: CelestialRule4
   name: Правило 4
-  priority: 14
+  priority: 4
   ruleEntry: true
   text: "/ServerInfo/Guidebook/ServerRules/Rule4.xml"
 
 - type: guideEntry
-  id: CelestialRule6
+  id: CelestialRule5
   name: Правило 5
-  priority: 15
+  priority: 5
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/ServerRules/Rule5.xml"
+
+- type: guideEntry
+  id: CelestialRule6
+  name: Правило 6
+  priority: 6
   ruleEntry: true
   text: "/ServerInfo/Guidebook/ServerRules/Rule6.xml"
 
 - type: guideEntry
   id: CelestialRule7
-  name: Правило 6
-  priority: 16
-  ruleEntry: true
-  text: "/ServerInfo/Guidebook/ServerRules/Rule6.xml"
-
-- type: guideEntry
-  id: CelestialRule8
   name: Правило 7
-  priority: 17
+  priority: 7
   ruleEntry: true
   text: "/ServerInfo/Guidebook/ServerRules/Rule7.xml"
 
 - type: guideEntry
-  id: CelestialRule9
+  id: CelestialRule8
   name: Правило 8
-  priority: 18
+  priority: 8
   ruleEntry: true
   text: "/ServerInfo/Guidebook/ServerRules/Rule8.xml"
 
 - type: guideEntry
-  id: CelestialRule10
+  id: CelestialRule9
   name: Правило 9
-  priority: 19
+  priority: 9
   ruleEntry: true
   text: "/ServerInfo/Guidebook/ServerRules/Rule9.xml"
+
+  - type: guideEntry
+  id: CelestialRule10
+  name: Правило 10
+  priority: 10
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/ServerRules/Rule10.xml"
