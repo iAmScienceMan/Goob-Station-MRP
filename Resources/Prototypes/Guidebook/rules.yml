@@ -80,7 +80,7 @@
   ruleEntry: true
   text: "/ServerInfo/Guidebook/ServerRules/Rule9.xml"
 
-  - type: guideEntry
+- type: guideEntry
   id: CelestialRule10
   name: Правило 10
   priority: 10
