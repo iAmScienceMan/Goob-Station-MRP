@@ -13,7 +13,6 @@
   <GuideEntityEmbed Entity="MobReptilian" Caption="Унатх"/>
   <GuideEntityEmbed Entity="MobVulpkanin" Caption="Вульпканин"/>
   <GuideEntityEmbed Entity="MobSlimePerson" Caption="Слаймолюд"/>
-  <GuideEntityEmbed Entity="MobIPCDummy" Caption="К.П.Б."/>
   </Box>
 
   <Box>
