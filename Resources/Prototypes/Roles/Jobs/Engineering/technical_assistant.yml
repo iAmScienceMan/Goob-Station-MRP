@@ -5,12 +5,8 @@
   playTimeTracker: JobTechnicalAssistant
   antagAdvantage: 3 # DeltaV - Reduced TC: External Access + Engineering
   requirements:
-  - !type:CharacterOverallTimeRequirement # DeltaV - to prevent griefers from taking the role.
-      min: 7200 # Goob MRP - 2 Hours (Prevent Raiders and ensure gameplay.)
-    # - !type:DepartmentTimeRequirement # DeltaV - Removes time limit
-    #   department: Engineering
-    #   time: 54000 #15 hrs
-    #   inverted: true # stop playing intern if you're good at engineering!
+  - !type:CharacterOverallTimeRequirement
+      min: 1800 # 30 mins
   startingGear: TechnicalAssistantGear
   icon: "JobIconTechnicalAssistant"
   supervisors: job-supervisors-engineering

@@ -6,10 +6,10 @@
   requirements:
     - !type:CharacterPlaytimeRequirement # DeltaV - JobSecurityOfficer time requirement. Make them experienced in proper officer work.
       tracker: JobSecurityOfficer
-      min: 43200 # DeltaV - 12 hrs
+      min: 7200
     - !type:CharacterPlaytimeRequirement # DeltaV - JobDetective time requirement. Give them an understanding of basic forensics.
       tracker: JobDetective
-      min: 14400 # DeltaV - 4 hours
+      min: 7200
     - !type:CharacterTraitRequirement
       inverted: true
       traits:

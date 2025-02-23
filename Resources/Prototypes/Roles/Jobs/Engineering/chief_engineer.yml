@@ -6,15 +6,10 @@
   requirements:
     - !type:CharacterPlaytimeRequirement
       tracker: JobAtmosphericTechnician
-      min: 36000 # DeltaV - 10 hours
-#    - !type:RoleTimeRequirement # DeltaV - No Station Engineer time requirement
-#      role: JobStationEngineer
-#      time: 21600 #6 hrs
+      min: 1800 # 30 mins
     - !type:CharacterDepartmentTimeRequirement
       department: Engineering
-      min: 72000 # Goob MRP - 20 Hours
-#    - !type:OverallPlaytimeRequirement
-#      time: 72000 # DeltaV - 20 hours
+      min: 3600 # 1 Hours
     - !type:CharacterTraitRequirement
       inverted: true
       traits:

@@ -6,7 +6,7 @@
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Epistemics # Chaplain is now one of the station's "Crew-Aligned Wizards"
-      min: 14400 # Goob MRP - 4 Hours
+      min: 1800 # 30 mins
     - !type:CharacterLogicOrRequirement
       requirements:
         - !type:CharacterSpeciesRequirement

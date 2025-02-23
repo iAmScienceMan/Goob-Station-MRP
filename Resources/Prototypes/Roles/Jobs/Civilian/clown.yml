@@ -4,7 +4,7 @@
   description: job-description-clown
   playTimeTracker: JobClown
   requirements:
-    - !type:CharacterOverallTimeRequirement # DeltaV - Playtime requirement
+    - !type:CharacterOverallTimeRequirement
       min: 3600 #1 hrs
   startingGear: ClownGear
   icon: "JobIconClown"

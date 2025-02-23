@@ -19,7 +19,7 @@
   playTimeTracker: JobBorg
   requirements:
     - !type:CharacterOverallTimeRequirement
-      min: 108000 # Goob MRP - 30 Hours
+      min: 36000 # 10 Hours
   canBeAntag: false
   icon: JobIconBorg
   supervisors: job-supervisors-rd

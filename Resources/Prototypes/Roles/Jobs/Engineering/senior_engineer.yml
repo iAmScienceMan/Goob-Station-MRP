@@ -6,13 +6,10 @@
   requirements:
     - !type:CharacterPlaytimeRequirement
       tracker: JobAtmosphericTechnician
-      min: 21600 #6 hrs
+      min: 1800 #30 mins
     - !type:CharacterPlaytimeRequirement
       tracker: JobStationEngineer
-      min: 21600 #6 hrs
-    - !type:CharacterDepartmentTimeRequirement
-      department: Engineering
-      min: 108000 # Goob MRP - 30 Hours
+      min: 1800 #30 mins
   startingGear: SeniorEngineerGear
   icon: "JobIconSeniorEngineer"
   supervisors: job-supervisors-ce

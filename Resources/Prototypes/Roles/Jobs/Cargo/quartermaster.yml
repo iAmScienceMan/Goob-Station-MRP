@@ -7,15 +7,13 @@
   requirements:
     - !type:CharacterPlaytimeRequirement
       tracker: JobSalvageSpecialist
-      min: 10800 #3 hrs
+      min: 3600 #1 hrs
     - !type:CharacterPlaytimeRequirement # DeltaV - Courier role time requirement
       tracker: JobMailCarrier
-      min: 7200 # 2 hours
+      min: 1800 # 30 minutes
     - !type:CharacterDepartmentTimeRequirement
       department: Logistics # DeltaV - Logistics Department replacing Cargo
-      min: 36000 # Goob MRP - 10 Hours
-    - !type:CharacterOverallTimeRequirement
-      min: 108000 # Goob MRP - 30 Hours
+      min: 7200 #2 hrs
     - !type:CharacterTraitRequirement
       inverted: true
       traits:

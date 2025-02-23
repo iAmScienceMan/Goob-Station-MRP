@@ -4,12 +4,7 @@
   description: "Обеспечение соблюдения космического закона, поддержание справедливости и законности, проведение слушаний и судебных разбирательств, соблюдение СРП, обеспечение соблюдения космического закона и СРП командованием."
   playTimeTracker: JobMagistrate
   requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Command
-      min: 54000 # 15 hours
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 54000 # 15 hours
+    - !type:CharacterWhitelistRequirement
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
@@ -22,6 +17,7 @@
   joinNotifyCrew: true
   supervisors: job-supervisors-centcom
   canBeAntag: false
+  whitelisted: true
   access:
   - Security
   - Brig

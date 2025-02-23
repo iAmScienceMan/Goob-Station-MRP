@@ -7,16 +7,13 @@
   requirements:
     - !type:CharacterPlaytimeRequirement
       tracker: JobWarden
-      min: 21600 #6 hrs
+      min: 7200
     - !type:CharacterPlaytimeRequirement
       tracker: JobDetective
-      min: 7200 #2 hrs
+      min: 7200
     - !type:CharacterPlaytimeRequirement
       tracker: JobSecurityOfficer
-      min: 21600 #6 hrs
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 216000 # 60 hrs
+      min: 10800
     - !type:CharacterTraitRequirement
       inverted: true
       traits:

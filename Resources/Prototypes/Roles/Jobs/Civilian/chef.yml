@@ -6,7 +6,7 @@
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Civilian
-      min: 3600 #DeltaV 1 hour
+      min: 1800 #30 mins
   startingGear: ChefGear
   icon: "JobIconChef"
   supervisors: job-supervisors-hop

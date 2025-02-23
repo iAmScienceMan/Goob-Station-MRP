@@ -5,25 +5,23 @@
   playTimeTracker: JobCaptain
   requirements:
     - !type:CharacterDepartmentTimeRequirement
-      department: Logistics # DeltaV - Logistics Department replacing Cargo
-      min: 18000 # Goob MRP - 5 Hours
+      department: Logistics
+      min: 3600 # 1 hour
     - !type:CharacterDepartmentTimeRequirement
       department: Engineering
-      min: 18000 # Goob MRP - 5 Hours
+      min: 3600 # 1 hour
     - !type:CharacterDepartmentTimeRequirement
       department: Medical
-      min: 18000 # Goob MRP - 5 Hours
+      min: 3600 # 1 hour
     - !type:CharacterDepartmentTimeRequirement
       department: Security
-      min: 18000 # Goob MRP - 5 Hours
-    - !type:CharacterDepartmentTimeRequirement # DeltaV - Epistemics dept time requirement
-      department: Epistemics # DeltaV - Epistemics Department replacing Science
-      min: 18000 # Goob MRP - 5 Hours
+      min: 3600 # 1 hour
+    - !type:CharacterDepartmentTimeRequirement
+      department: Epistemics
+      min: 3600 # 1 hour
     - !type:CharacterDepartmentTimeRequirement
       department: Command
-      min: 72000 # Goob MRP - 20 Hours
-    - !type:CharacterOverallTimeRequirement # DeltaV - Playtime requirement
-      min: 108000 # Goob MRP - 30 Hours
+      min: 10800 # 3 hours
     - !type:CharacterTraitRequirement
       inverted: true
       traits:

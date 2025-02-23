@@ -6,13 +6,13 @@
   requirements:
     - !type:CharacterPlaytimeRequirement
       tracker: JobChemist
-      min: 21600 #6 hrs
+      min: 1800
     - !type:CharacterPlaytimeRequirement
       tracker: JobMedicalDoctor
-      min: 21600 #6 hrs
+      min: 1800
     - !type:CharacterDepartmentTimeRequirement
       department: Medical
-      min: 108000 # Goob MRP - 30 Hours
+      min: 3600
   startingGear: SeniorPhysicianGear
   icon: "JobIconSeniorPhysician"
   supervisors: job-supervisors-cmo

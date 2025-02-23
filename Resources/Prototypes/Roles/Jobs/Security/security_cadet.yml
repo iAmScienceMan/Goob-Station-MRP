@@ -4,6 +4,8 @@
   description: job-description-cadet
   playTimeTracker: JobSecurityCadet
   requirements:
+    - !type:CharacterOverallTimeRequirement
+      min: 1800
     - !type:CharacterTraitRequirement
       inverted: true
       traits:

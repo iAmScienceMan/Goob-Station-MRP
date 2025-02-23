@@ -6,10 +6,10 @@
   antagAdvantage: 2 # DeltaV - Reduced TC: Security Radio and Access
   requirements:
     - !type:CharacterOverallTimeRequirement
-      min: 18000 # 5 hrs
+      min: 3600 # 1 hr
     - !type:CharacterDepartmentTimeRequirement # DeltaV - Security dept time requirement
       department: Security
-      min: 7200 # 2 hours
+      min: 1800 # 30 mins
   startingGear: LawyerGear
   icon: "JobIconLawyer"
   supervisors: job-supervisors-cj  # Delta V - Change supervisor to chief justice

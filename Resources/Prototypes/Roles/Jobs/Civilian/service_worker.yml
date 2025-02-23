@@ -5,7 +5,7 @@
   playTimeTracker: JobServiceWorker
   requirements:
     - !type:CharacterOverallTimeRequirement
-      min: 1800 # goob mrp - 0.5 hours
+      min: 1800 # 30 mins
   startingGear: ServiceWorkerGear
   icon: "JobIconServiceWorker"
   supervisors: job-supervisors-service
