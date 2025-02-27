@@ -22,3 +22,14 @@
     sprite: Clothing/Under/Socks/coder.rsi
   - type: Clothing
     sprite: Clothing/Under/Socks/coder.rsi
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingUnderSocksCoder
+  name: высокие носки ЦентКома
+  description: ЦентКом стайл! Натягивай выше – одобренный дресс-код от НаноТрейзен!
+  components:
+  - type: Sprite
+    sprite: Clothing/Under/Socks/ccfb.rsi
+  - type: Clothing
+    sprite: Clothing/Under/Socks/ccfb.rsi
